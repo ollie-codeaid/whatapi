@@ -17,6 +17,8 @@ encoded_quote = quote(trump_quote)
 
 text_response = requests.get(TTS_BASE_URL + encoded_quote)
 
-with open(f"wav_output/{uuid4()}.wav", "bx") as f:
+file_name = f"wav_output/{uuid4()}.wav"
+with open(file_name, "bx") as f:
   f.write(text_response.content)
 
+print(file_name)
