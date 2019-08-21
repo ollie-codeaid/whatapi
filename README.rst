@@ -49,3 +49,14 @@ Trump to speech
 .. code:: bash
 
    echo VOICE_RSS_API_KEY=<your_api_key_here> > .env
+
+Reference
+---------
+
+APIs used in this talk:
+
+* `Brewdog Punk API <https://punkapi.com/documentation/v2>`_
+
+* `Tronald Dump <https://www.tronalddump.io/>`_
+
+* `Voice RSS <http://www.voicerss.org/tts/default.aspx>`_
