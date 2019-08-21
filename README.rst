@@ -1,5 +1,5 @@
 What does API even mean?
-------------------------
+========================
 
 This repo contains scripts run during the 'What does API even mean?' lightning talk.
 
@@ -26,13 +26,22 @@ Setup  (for Mac)
 Run
 ---
 
-* Execute below command replacing <script_name> as required
+* Run any of the .py files by replacing <script_name> as required
 
 .. code:: bash
 
    python <script_name>
 
-* In order to run tts.py you'll need to create an account on VoiceRSS
+* e.g.
+
+.. code:: bash
+
+   python eighty_beers.py
+
+Trump to speech
+---------------
+
+* In order to run trump_to_speech.py you'll need to create an account on VoiceRSS
   and get an API key - you can do that here_. Once you have a key, run this command:
 
 .. _here: http://www.voicerss.org/personel
